@@ -1,0 +1,39 @@
+.container {
+    width: 900px;
+    margin: 100 auto;
+    padding: 50px;
+    border: 50px solid #400606;
+    background-color: #eee9e9;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="number"],
+select {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #af4c4e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #a04557;
+}
